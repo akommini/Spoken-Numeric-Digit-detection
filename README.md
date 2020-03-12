@@ -1,6 +1,6 @@
 # Spoken-Numeric-Digit-detection
 Spoken digit recognition using the Mel-frequency cepstral coefficients (MFCCs) and convolution neural networks (CNN). The model can recognize 0-9 spoken digits from .wav audio files by passing their MFCCs as an image input. My model achieves an accuracy of 94% on the test audio files. 
-## Dataset
+
 ## Tensorflow speech command dataset
 
 An audio dataset of spoken words designed to help train and evaluate keyword spotting systems. I have extracted the spoken digits wave files from the dataset that contains 30 different commands. There are 21,114 training and validation audio files. The rest i.e., 2552 are the test files.
