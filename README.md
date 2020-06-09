@@ -3,7 +3,7 @@ Spoken digit recognition using the Mel-frequency cepstral coefficients (MFCCs) a
 
 ## Tensorflow speech command dataset
 
-An audio dataset of spoken words designed to help train and evaluate keyword spotting systems. I have extracted the spoken digits wave files from the dataset that contains 30 different commands. There are 21,114 training and validation audio files. The rest i.e., 2552 are the test files.
+An audio dataset of spoken words (https://arxiv.org/abs/1804.03209) designed to help train and evaluate keyword spotting systems. I have extracted the spoken digits wave files from the dataset that contains 30 different commands. There are 21,114 training and validation audio files. The rest i.e., 2552 are the test files.
 
 ## Extracting the MFCCs for the audio files
 Mel-frequency cepstral coefficients (MFCCs) are coefficients that collectively make up an MFC. They are derived from a type of cepstral representation of the audio clip (a nonlinear "spectrum-of-a-spectrum").
